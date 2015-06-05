@@ -54,7 +54,7 @@ module Jasmine::Headless
       end
 
       def default_files
-        %w{jasmine.js jasmine-html jasmine.css jasmine-extensions
+        %w{jasmine.js jasmine-html.js json2.js boot.js jasmine.css jasmine-extensions
            intense headless_reporter_result jasmine.HeadlessReporter
            jasmine.HeadlessReporter.ConsoleBase
            jsDump beautify-html}
